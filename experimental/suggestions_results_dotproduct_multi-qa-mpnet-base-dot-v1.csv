@@ -1,0 +1,306 @@
+Test Case ID,Input Name,Input Type,Suggestion Rank,Suggestion ID,Suggestion Name,Similarity Score
+1,Send email,bpmn:Task,1,io.camunda.connectors.SendGrid.v2,SendGrid Outbound Connector,21.09017562866211
+1,Send email,bpmn:Task,2,io.camunda.connectors.MSTeams.v1,Microsoft Teams Outbound Connector,17.073638916015625
+1,Send email,bpmn:Task,3,io.camunda.connectors.AWSSQS.v1,Amazon SQS Outbound Connector,16.10936737060547
+1,Send email,bpmn:Task,4,io.camunda.connectors.AWSSNS.v1,Amazon SNS Outbound connector,15.60636043548584
+1,Send email,bpmn:Task,5,io.camunda.connectors.MSFT.O365.Mail.v1,Microsoft Office 365 Mail Connector,15.037347793579102
+2,Send message,bpmn:Task,1,io.camunda.connectors.SendGrid.v2,SendGrid Outbound Connector,20.712688446044922
+2,Send message,bpmn:Task,2,io.camunda.connectors.RabbitMQ.v1,RabbitMQ Outbound Connector,20.530080795288086
+2,Send message,bpmn:Task,3,io.camunda.connectors.AWSSNS.v1,Amazon SNS Outbound connector,19.943832397460938
+2,Send message,bpmn:Task,4,io.camunda.connectors.MSTeams.v1,Microsoft Teams Outbound Connector,19.73629379272461
+2,Send message,bpmn:Task,5,io.camunda.connectors.Slack.v1,Slack Outbound Connector,19.630599975585938
+3,Setup project,bpmn:Task,1,io.camunda.connectors.Asana.v1,Asana Outbound Connector,19.757326126098633
+3,Setup project,bpmn:Task,2,io.camunda.connectors.GitLab.v1,GitLab Outbound Connector,16.183670043945312
+3,Setup project,bpmn:Task,3,io.camunda.connectors.GitHub.v1,GitHub Outbound Connector,14.808746337890625
+3,Setup project,bpmn:Task,4,io.camunda.connectors.MSTeams.v1,Microsoft Teams Outbound Connector,14.66365909576416
+3,Setup project,bpmn:Task,5,io.camunda.connectors.GoogleDrive.v1,Google Drive Outbound Connector,13.376984596252441
+4,Call REST API,bpmn:Task,1,io.camunda.connectors.HttpJson.v2,REST Outbound Connector,25.726652145385742
+4,Call REST API,bpmn:Task,2,io.camunda.connectors.Salesforce.v1,Salesforce Outbound Connector,20.634782791137695
+4,Call REST API,bpmn:Task,3,io.camunda.connectors.CamundaOperate.v1,Camunda Operate Outbound connector,18.047128677368164
+4,Call REST API,bpmn:Task,4,io.camunda.connectors.Twilio.v1,Twilio Outbound Connector,15.434647560119629
+4,Call REST API,bpmn:Task,5,io.camunda.connectors.AWSLAMBDA.v2,AWS Lambda Outbound Connector,15.239197731018066
+5,Get distance from Google Maps,bpmn:Task,1,io.camunda.connectors.GoogleMapsPlatform.v1,Google Maps Platform Outbound Connector,19.948501586914062
+5,Get distance from Google Maps,bpmn:Task,2,io.camunda.connectors.GoogleSheets.v1,Google Sheets Outbound Connector,12.54109001159668
+5,Get distance from Google Maps,bpmn:Task,3,io.camunda.connectors.GoogleDrive.v1,Google Drive Outbound Connector,11.271082878112793
+5,Get distance from Google Maps,bpmn:Task,4,io.camunda.connectors.CamundaOperate.v1,Camunda Operate Outbound connector,11.26205825805664
+5,Get distance from Google Maps,bpmn:Task,5,io.camunda.connectors.BluePrism.v1,Blue Prism Outbound Connector,10.570711135864258
+6,Send message on Slack,bpmn:Task,1,io.camunda.connectors.Slack.v1,Slack Outbound Connector,26.76383399963379
+6,Send message on Slack,bpmn:Task,2,io.camunda.connectors.RabbitMQ.v1,RabbitMQ Outbound Connector,21.218727111816406
+6,Send message on Slack,bpmn:Task,3,io.camunda.connectors.AWSSQS.v1,Amazon SQS Outbound Connector,19.404083251953125
+6,Send message on Slack,bpmn:Task,4,io.camunda.connectors.MSTeams.v1,Microsoft Teams Outbound Connector,18.411365509033203
+6,Send message on Slack,bpmn:Task,5,io.camunda.connectors.AWSSNS.v1,Amazon SNS Outbound connector,18.37339973449707
+7,Receive order,bpmn:StartEvent,1,io.camunda.connectors.AWSSQS.startmessage.v1,Amazon SQS Message Start Event Connector,17.106952667236328
+7,Receive order,bpmn:StartEvent,2,io.camunda.connectors.AWSSQS.StartEvent.v1,Amazon SQS Start Event Connector,16.29578399658203
+7,Receive order,bpmn:StartEvent,3,io.camunda.connectors.AWSEventBridge.MessageStart.v1,Amazon EventBridge Message Start Event Connector,15.063507080078125
+7,Receive order,bpmn:StartEvent,4,io.camunda.connectors.inbound.RabbitMQ.MessageStart.v1,RabbitMQ Message Start Event Connector,14.641613006591797
+7,Receive order,bpmn:StartEvent,5,io.camunda.connectors.inbound.AWSSNS.MessageStartEvent.v1,SNS HTTPS Message Start Event Connector Subscription,14.57158088684082
+8,Wait for approval,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,15.484256744384766
+8,Wait for approval,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,12.558967590332031
+8,Wait for approval,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,11.74856948852539
+8,Wait for approval,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,11.735710144042969
+8,Wait for approval,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.inbound.AWSSNS.IntermediateCatchEvent.v1,SNS HTTPS Intermediate Catch Event Connector,11.321595191955566
+9,GitHub issue,bpmn:BoundaryEvent,1,io.camunda.connectors.webhook.GithubWebhookConnectorBoundary.v1,GitHub Webhook Boundary Event Connector,20.53324317932129
+9,GitHub issue,bpmn:BoundaryEvent,2,io.camunda.connectors.inbound.Slack.BoundaryEvent.v1,Slack Webhook Boundary Event Connector,9.931632041931152
+9,GitHub issue,bpmn:BoundaryEvent,3,io.camunda.connectors.AWSSQS.boundary.v1,Amazon SQS Boundary Event Connector,8.365790367126465
+9,GitHub issue,bpmn:BoundaryEvent,4,io.camunda.connectors.webhook.WebhookConnectorBoundary.v1,Webhook Boundary Event Connector,7.992362022399902
+9,GitHub issue,bpmn:BoundaryEvent,5,io.camunda.connectors.inbound.RabbitMQ.Boundary.v1,RabbitMQ Boundary Event Connector,7.655538558959961
+10,Create Slack channel,bpmn:Task,1,io.camunda.connectors.Slack.v1,Slack Outbound Connector,28.213420867919922
+10,Create Slack channel,bpmn:Task,2,io.camunda.connectors.RabbitMQ.v1,RabbitMQ Outbound Connector,17.73453140258789
+10,Create Slack channel,bpmn:Task,3,io.camunda.connectors.GitLab.v1,GitLab Outbound Connector,15.655008316040039
+10,Create Slack channel,bpmn:Task,4,io.camunda.connectors.MSTeams.v1,Microsoft Teams Outbound Connector,15.527742385864258
+10,Create Slack channel,bpmn:Task,5,io.camunda.connectors.GitHub.v1,GitHub Outbound Connector,15.289599418640137
+11,Email sender,bpmn:Task,1,io.camunda.connectors.SendGrid.v2,SendGrid Outbound Connector,18.405025482177734
+11,Email sender,bpmn:Task,2,io.camunda.connectors.EasyPost.v1,Easy Post Outbound Connector,15.104002952575684
+11,Email sender,bpmn:Task,3,io.camunda.connectors.Slack.v1,Slack Outbound Connector,14.713447570800781
+11,Email sender,bpmn:Task,4,io.camunda.connectors.MSFT.O365.Mail.v1,Microsoft Office 365 Mail Connector,14.336884498596191
+11,Email sender,bpmn:Task,5,io.camunda.connectors.AWSSNS.v1,Amazon SNS Outbound connector,13.544751167297363
+12,Order received,bpmn:StartEvent,1,io.camunda.connectors.AWSSQS.startmessage.v1,Amazon SQS Message Start Event Connector,15.878776550292969
+12,Order received,bpmn:StartEvent,2,io.camunda.connectors.AWSSQS.StartEvent.v1,Amazon SQS Start Event Connector,15.495718002319336
+12,Order received,bpmn:StartEvent,3,io.camunda.connectors.inbound.RabbitMQ.MessageStart.v1,RabbitMQ Message Start Event Connector,13.894572257995605
+12,Order received,bpmn:StartEvent,4,io.camunda.connectors.inbound.AWSSNS.MessageStartEvent.v1,SNS HTTPS Message Start Event Connector Subscription,13.34865951538086
+12,Order received,bpmn:StartEvent,5,io.camunda.connectors.AWSEventBridge.MessageStart.v1,Amazon EventBridge Message Start Event Connector,13.198562622070312
+13,Approval wait,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,15.776463508605957
+13,Approval wait,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,12.741991996765137
+13,Approval wait,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.inbound.AWSSNS.IntermediateCatchEvent.v1,SNS HTTPS Intermediate Catch Event Connector,11.224757194519043
+13,Approval wait,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,11.096288681030273
+13,Approval wait,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.http.Polling,HTTP Polling Intermediate Catch Event Connector,10.965109825134277
+14,Notification sender,bpmn:IntermediateThrowEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,17.609949111938477
+14,Notification sender,bpmn:IntermediateThrowEvent,2,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,15.498725891113281
+14,Notification sender,bpmn:IntermediateThrowEvent,3,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,15.057096481323242
+14,Notification sender,bpmn:IntermediateThrowEvent,4,io.camunda.connectors.Twilio.Webhook.Intermediate.v1,Twilio Intermediate Catch Event Connector,14.697514533996582
+14,Notification sender,bpmn:IntermediateThrowEvent,5,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,14.112375259399414
+15,Send email to customer,bpmn:Task,1,io.camunda.connectors.SendGrid.v2,SendGrid Outbound Connector,19.532346725463867
+15,Send email to customer,bpmn:Task,2,io.camunda.connectors.AWSSQS.v1,Amazon SQS Outbound Connector,17.091663360595703
+15,Send email to customer,bpmn:Task,3,io.camunda.connectors.AWSSNS.v1,Amazon SNS Outbound connector,16.317407608032227
+15,Send email to customer,bpmn:Task,4,io.camunda.connectors.MSTeams.v1,Microsoft Teams Outbound Connector,16.109764099121094
+15,Send email to customer,bpmn:Task,5,io.camunda.connectors.MSFT.O365.Mail.v1,Microsoft Office 365 Mail Connector,15.146714210510254
+16,Make API request,bpmn:Task,1,io.camunda.connectors.HttpJson.v2,REST Outbound Connector,22.788837432861328
+16,Make API request,bpmn:Task,2,io.camunda.connectors.Salesforce.v1,Salesforce Outbound Connector,21.344181060791016
+16,Make API request,bpmn:Task,3,io.camunda.connectors.CamundaOperate.v1,Camunda Operate Outbound connector,19.799976348876953
+16,Make API request,bpmn:Task,4,io.camunda.connectors.AWSLAMBDA.v2,AWS Lambda Outbound Connector,16.06427764892578
+16,Make API request,bpmn:Task,5,io.camunda.connectors.AutomationAnywhere,Automation Anywhere Outbound Connector,15.973660469055176
+17,Email,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,11.027767181396484
+17,Email,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,9.280214309692383
+17,Email,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,9.272855758666992
+17,Email,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,8.842044830322266
+17,Email,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.Twilio.Webhook.Intermediate.v1,Twilio Intermediate Catch Event Connector,8.324261665344238
+18,Receive Email,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,16.367359161376953
+18,Receive Email,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,15.25989818572998
+18,Receive Email,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.Twilio.Webhook.Intermediate.v1,Twilio Intermediate Catch Event Connector,15.091642379760742
+18,Receive Email,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,14.083672523498535
+18,Receive Email,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.AWSEventBridge.intermediate.v1,Amazon EventBridge Intermediate Catch Event Connector,14.005453109741211
+19,Approval,bpmn:Task,1,io.camunda.connectors.AutomationAnywhere,Automation Anywhere Outbound Connector,14.164730072021484
+19,Approval,bpmn:Task,2,io.camunda.connectors.EasyPost.v1,Easy Post Outbound Connector,13.947586059570312
+19,Approval,bpmn:Task,3,io.camunda.connectors.AWSSQS.v1,Amazon SQS Outbound Connector,13.43869400024414
+19,Approval,bpmn:Task,4,io.camunda.connectors.Asana.v1,Asana Outbound Connector,12.398176193237305
+19,Approval,bpmn:Task,5,io.camunda.connectors.UIPath.v1,UiPath Outbound Connector,12.363443374633789
+20,Approval,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,12.095010757446289
+20,Approval,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,10.644515991210938
+20,Approval,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,9.244375228881836
+20,Approval,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,9.21074104309082
+20,Approval,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.inbound.AWSSNS.IntermediateCatchEvent.v1,SNS HTTPS Intermediate Catch Event Connector,9.037662506103516
+21,Send Email Notification,bpmn:Task,1,io.camunda.connectors.SendGrid.v2,SendGrid Outbound Connector,21.074148178100586
+21,Send Email Notification,bpmn:Task,2,io.camunda.connectors.AWSSQS.v1,Amazon SQS Outbound Connector,18.160863876342773
+21,Send Email Notification,bpmn:Task,3,io.camunda.connectors.AWSSNS.v1,Amazon SNS Outbound connector,17.58525276184082
+21,Send Email Notification,bpmn:Task,4,io.camunda.connectors.MSTeams.v1,Microsoft Teams Outbound Connector,17.521860122680664
+21,Send Email Notification,bpmn:Task,5,io.camunda.connectors.Slack.v1,Slack Outbound Connector,16.171205520629883
+22,Fire John,bpmn:Task,1,io.camunda.connectors.Slack.v1,Slack Outbound Connector,12.820560455322266
+22,Fire John,bpmn:Task,2,io.camunda.connectors.HttpJson.v2,REST Outbound Connector,11.289077758789062
+22,Fire John,bpmn:Task,3,io.camunda.connectors.GitLab.v1,GitLab Outbound Connector,10.824211120605469
+22,Fire John,bpmn:Task,4,io.camunda.connectors.MSTeams.v1,Microsoft Teams Outbound Connector,10.772026062011719
+22,Fire John,bpmn:Task,5,io.camunda.connectors.SendGrid.v2,SendGrid Outbound Connector,10.585168838500977
+23,SEND EMAIL,bpmn:Task,1,io.camunda.connectors.SendGrid.v2,SendGrid Outbound Connector,21.09017562866211
+23,SEND EMAIL,bpmn:Task,2,io.camunda.connectors.MSTeams.v1,Microsoft Teams Outbound Connector,17.073638916015625
+23,SEND EMAIL,bpmn:Task,3,io.camunda.connectors.AWSSQS.v1,Amazon SQS Outbound Connector,16.10936737060547
+23,SEND EMAIL,bpmn:Task,4,io.camunda.connectors.AWSSNS.v1,Amazon SNS Outbound connector,15.60636043548584
+23,SEND EMAIL,bpmn:Task,5,io.camunda.connectors.MSFT.O365.Mail.v1,Microsoft Office 365 Mail Connector,15.037347793579102
+24,Call external API to get data,bpmn:Task,1,io.camunda.connectors.Salesforce.v1,Salesforce Outbound Connector,23.885848999023438
+24,Call external API to get data,bpmn:Task,2,io.camunda.connectors.CamundaOperate.v1,Camunda Operate Outbound connector,23.01336669921875
+24,Call external API to get data,bpmn:Task,3,io.camunda.connectors.HttpJson.v2,REST Outbound Connector,22.836692810058594
+24,Call external API to get data,bpmn:Task,4,io.camunda.connectors.Twilio.v1,Twilio Outbound Connector,18.614192962646484
+24,Call external API to get data,bpmn:Task,5,io.camunda.connectors.AWSLAMBDA.v2,AWS Lambda Outbound Connector,17.348222732543945
+25,Call Google Maps API,bpmn:Task,1,io.camunda.connectors.GoogleMapsPlatform.v1,Google Maps Platform Outbound Connector,18.92060089111328
+25,Call Google Maps API,bpmn:Task,2,io.camunda.connectors.Salesforce.v1,Salesforce Outbound Connector,17.576940536499023
+25,Call Google Maps API,bpmn:Task,3,io.camunda.connectors.HttpJson.v2,REST Outbound Connector,17.54671859741211
+25,Call Google Maps API,bpmn:Task,4,io.camunda.connectors.CamundaOperate.v1,Camunda Operate Outbound connector,15.877351760864258
+25,Call Google Maps API,bpmn:Task,5,io.camunda.connectors.AWSLAMBDA.v2,AWS Lambda Outbound Connector,15.048803329467773
+26,Call some API,bpmn:Task,1,io.camunda.connectors.Salesforce.v1,Salesforce Outbound Connector,22.36495590209961
+26,Call some API,bpmn:Task,2,io.camunda.connectors.HttpJson.v2,REST Outbound Connector,22.038047790527344
+26,Call some API,bpmn:Task,3,io.camunda.connectors.CamundaOperate.v1,Camunda Operate Outbound connector,19.289684295654297
+26,Call some API,bpmn:Task,4,io.camunda.connectors.AWSLAMBDA.v2,AWS Lambda Outbound Connector,17.184690475463867
+26,Call some API,bpmn:Task,5,io.camunda.connectors.AutomationAnywhere,Automation Anywhere Outbound Connector,16.682008743286133
+27,Process payment,bpmn:Task,1,io.camunda.connectors.Salesforce.v1,Salesforce Outbound Connector,15.003716468811035
+27,Process payment,bpmn:Task,2,io.camunda.connectors.AzureOpenAI.outbound.v1,Azure OpenAI Connector,12.840047836303711
+27,Process payment,bpmn:Task,3,io.camunda.connectors.AutomationAnywhere,Automation Anywhere Outbound Connector,12.666848182678223
+27,Process payment,bpmn:Task,4,io.camunda.connectors.Jdbc.v1,SQL Database Connector,11.75885009765625
+27,Process payment,bpmn:Task,5,io.camunda.connectors.MSFT.O365.Mail.v1,Microsoft Office 365 Mail Connector,11.664477348327637
+28,User registration,bpmn:StartEvent,1,io.camunda.connectors.AWSSQS.StartEvent.v1,Amazon SQS Start Event Connector,10.085844039916992
+28,User registration,bpmn:StartEvent,2,io.camunda.connectors.inbound.RabbitMQ.MessageStart.v1,RabbitMQ Message Start Event Connector,9.879114151000977
+28,User registration,bpmn:StartEvent,3,io.camunda.connectors.AWSSQS.startmessage.v1,Amazon SQS Message Start Event Connector,9.801339149475098
+28,User registration,bpmn:StartEvent,4,io.camunda.connectors.inbound.RabbitMQ.StartEvent.v1,RabbitMQ Start Event Connector,9.676849365234375
+28,User registration,bpmn:StartEvent,5,io.camunda.connectors.webhook.WebhookConnectorStartMessage.v1,Webhook Message Start Event Connector,9.319259643554688
+29,Timer-based reminder,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.http.Polling,HTTP Polling Intermediate Catch Event Connector,11.824478149414062
+29,Timer-based reminder,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,10.822530746459961
+29,Timer-based reminder,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.Twilio.Webhook.Intermediate.v1,Twilio Intermediate Catch Event Connector,9.616986274719238
+29,Timer-based reminder,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,9.225859642028809
+29,Timer-based reminder,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.webhook.WebhookConnectorIntermediate.v1,Webhook Intermediate Event Connector,8.994738578796387
+30,Log system event,bpmn:IntermediateThrowEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,15.61910629272461
+30,Log system event,bpmn:IntermediateThrowEvent,2,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,15.25537395477295
+30,Log system event,bpmn:IntermediateThrowEvent,3,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,14.891010284423828
+30,Log system event,bpmn:IntermediateThrowEvent,4,io.camunda.connectors.AWSEventBridge.intermediate.v1,Amazon EventBridge Intermediate Catch Event Connector,14.522831916809082
+30,Log system event,bpmn:IntermediateThrowEvent,5,io.camunda.connectors.http.Polling,HTTP Polling Intermediate Catch Event Connector,14.210004806518555
+31,Compensate transaction,bpmn:BoundaryEvent,1,io.camunda.connectors.AWSSQS.boundary.v1,Amazon SQS Boundary Event Connector,12.615386009216309
+31,Compensate transaction,bpmn:BoundaryEvent,2,io.camunda.connectors.webhook.WebhookConnectorBoundary.v1,Webhook Boundary Event Connector,12.501924514770508
+31,Compensate transaction,bpmn:BoundaryEvent,3,io.camunda.connectors.inbound.RabbitMQ.Boundary.v1,RabbitMQ Boundary Event Connector,11.71915340423584
+31,Compensate transaction,bpmn:BoundaryEvent,4,io.camunda.connectors.http.Polling.Boundary,HTTP Polling Boundary Catch Event Connector,11.58267593383789
+31,Compensate transaction,bpmn:BoundaryEvent,5,io.camunda.connectors.inbound.KafkaBoundary.v1,Kafka Boundary Event Connector,11.027377128601074
+32,Send email with attachment,bpmn:Task,1,io.camunda.connectors.SendGrid.v2,SendGrid Outbound Connector,20.028318405151367
+32,Send email with attachment,bpmn:Task,2,io.camunda.connectors.MSFT.O365.Mail.v1,Microsoft Office 365 Mail Connector,15.007464408874512
+32,Send email with attachment,bpmn:Task,3,io.camunda.connectors.MSTeams.v1,Microsoft Teams Outbound Connector,14.008943557739258
+32,Send email with attachment,bpmn:Task,4,io.camunda.connectors.GoogleDrive.v1,Google Drive Outbound Connector,13.58056640625
+32,Send email with attachment,bpmn:Task,5,io.camunda.connectors.AWSSNS.v1,Amazon SNS Outbound connector,13.260383605957031
+33,Wait for customer approval,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,15.328214645385742
+33,Wait for customer approval,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,12.527180671691895
+33,Wait for customer approval,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,11.999152183532715
+33,Wait for customer approval,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.Twilio.Webhook.Intermediate.v1,Twilio Intermediate Catch Event Connector,11.549049377441406
+33,Wait for customer approval,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,11.083614349365234
+34,Error handling mechanism,bpmn:BoundaryEvent,1,io.camunda.connectors.AWSSQS.boundary.v1,Amazon SQS Boundary Event Connector,13.47024917602539
+34,Error handling mechanism,bpmn:BoundaryEvent,2,io.camunda.connectors.http.Polling.Boundary,HTTP Polling Boundary Catch Event Connector,13.388998031616211
+34,Error handling mechanism,bpmn:BoundaryEvent,3,io.camunda.connectors.inbound.KafkaBoundary.v1,Kafka Boundary Event Connector,13.191488265991211
+34,Error handling mechanism,bpmn:BoundaryEvent,4,io.camunda.connectors.webhook.WebhookConnectorBoundary.v1,Webhook Boundary Event Connector,12.502485275268555
+34,Error handling mechanism,bpmn:BoundaryEvent,5,io.camunda.connectors.inbound.RabbitMQ.Boundary.v1,RabbitMQ Boundary Event Connector,12.17344856262207
+35,Compensate failed transaction,bpmn:BoundaryEvent,1,io.camunda.connectors.AWSSQS.boundary.v1,Amazon SQS Boundary Event Connector,12.110420227050781
+35,Compensate failed transaction,bpmn:BoundaryEvent,2,io.camunda.connectors.webhook.WebhookConnectorBoundary.v1,Webhook Boundary Event Connector,11.15407657623291
+35,Compensate failed transaction,bpmn:BoundaryEvent,3,io.camunda.connectors.inbound.RabbitMQ.Boundary.v1,RabbitMQ Boundary Event Connector,10.845353126525879
+35,Compensate failed transaction,bpmn:BoundaryEvent,4,io.camunda.connectors.inbound.KafkaBoundary.v1,Kafka Boundary Event Connector,10.508243560791016
+35,Compensate failed transaction,bpmn:BoundaryEvent,5,io.camunda.connectors.http.Polling.Boundary,HTTP Polling Boundary Catch Event Connector,10.488483428955078
+36,Log important event,bpmn:IntermediateThrowEvent,1,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,13.729301452636719
+36,Log important event,bpmn:IntermediateThrowEvent,2,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,13.360682487487793
+36,Log important event,bpmn:IntermediateThrowEvent,3,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,13.358497619628906
+36,Log important event,bpmn:IntermediateThrowEvent,4,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,13.350152969360352
+36,Log important event,bpmn:IntermediateThrowEvent,5,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,12.83074951171875
+37,Start process on system boot,bpmn:StartEvent,1,io.camunda.connectors.inbound.KafkaMessageStart.v1,Kafka Message Start Event Connector,15.274842262268066
+37,Start process on system boot,bpmn:StartEvent,2,io.camunda.connectors.inbound.KAFKA.v1,Kafka Start Event Connector,14.768144607543945
+37,Start process on system boot,bpmn:StartEvent,3,io.camunda.connectors.AWSSQS.StartEvent.v1,Amazon SQS Start Event Connector,14.443645477294922
+37,Start process on system boot,bpmn:StartEvent,4,io.camunda.connectors.TwilioWebhook.v1,Twilio Start Event Connector,14.395293235778809
+37,Start process on system boot,bpmn:StartEvent,5,io.camunda.connectors.TwilioWebhookMessageStart.v1,Twilio Message Start Event Connector,14.167073249816895
+38,User logs in successfully,bpmn:StartEvent,1,io.camunda.connectors.AWSSQS.StartEvent.v1,Amazon SQS Start Event Connector,10.29051399230957
+38,User logs in successfully,bpmn:StartEvent,2,io.camunda.connectors.AWSSQS.startmessage.v1,Amazon SQS Message Start Event Connector,9.384909629821777
+38,User logs in successfully,bpmn:StartEvent,3,io.camunda.connectors.webhook.WebhookConnectorStartMessage.v1,Webhook Message Start Event Connector,9.141923904418945
+38,User logs in successfully,bpmn:StartEvent,4,io.camunda.connectors.TwilioWebhook.v1,Twilio Start Event Connector,9.030765533447266
+38,User logs in successfully,bpmn:StartEvent,5,io.camunda.connectors.webhook.WebhookConnector.v1,Webhook Start Event Connector,8.831247329711914
+39,Timer event after 24 hours,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.http.Polling,HTTP Polling Intermediate Catch Event Connector,12.868087768554688
+39,Timer event after 24 hours,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,10.73189640045166
+39,Timer event after 24 hours,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.webhook.WebhookConnectorIntermediate.v1,Webhook Intermediate Event Connector,10.409055709838867
+39,Timer event after 24 hours,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,10.337148666381836
+39,Timer event after 24 hours,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,10.262239456176758
+40,Escalate to manager,bpmn:IntermediateThrowEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,11.777461051940918
+40,Escalate to manager,bpmn:IntermediateThrowEvent,2,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,10.742374420166016
+40,Escalate to manager,bpmn:IntermediateThrowEvent,3,io.camunda.connectors.webhook.WebhookConnectorIntermediate.v1,Webhook Intermediate Event Connector,9.469269752502441
+40,Escalate to manager,bpmn:IntermediateThrowEvent,4,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,9.420370101928711
+40,Escalate to manager,bpmn:IntermediateThrowEvent,5,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,9.186655044555664
+41,"Validate user input, store results in DB, then trigger notification email",bpmn:Task,1,io.camunda.connectors.Jdbc.v1,SQL Database Connector,14.425579071044922
+41,"Validate user input, store results in DB, then trigger notification email",bpmn:Task,2,io.camunda.connectors.AutomationAnywhere,Automation Anywhere Outbound Connector,14.296252250671387
+41,"Validate user input, store results in DB, then trigger notification email",bpmn:Task,3,io.camunda.connectors.UIPath.v1,UiPath Outbound Connector,13.721651077270508
+41,"Validate user input, store results in DB, then trigger notification email",bpmn:Task,4,io.camunda.connectors.MSFT.O365.Mail.v1,Microsoft Office 365 Mail Connector,13.094115257263184
+41,"Validate user input, store results in DB, then trigger notification email",bpmn:Task,5,io.camunda.connectors.BluePrism.v1,Blue Prism Outbound Connector,12.320657730102539
+42,Initiate Payment Process,bpmn:StartEvent,1,io.camunda.connectors.AWSSQS.StartEvent.v1,Amazon SQS Start Event Connector,15.343585968017578
+42,Initiate Payment Process,bpmn:StartEvent,2,io.camunda.connectors.webhook.WebhookConnector.v1,Webhook Start Event Connector,14.9583158493042
+42,Initiate Payment Process,bpmn:StartEvent,3,io.camunda.connectors.inbound.RabbitMQ.MessageStart.v1,RabbitMQ Message Start Event Connector,14.77726936340332
+42,Initiate Payment Process,bpmn:StartEvent,4,io.camunda.connectors.AWSSQS.startmessage.v1,Amazon SQS Message Start Event Connector,14.72043228149414
+42,Initiate Payment Process,bpmn:StartEvent,5,io.camunda.connectors.TwilioWebhook.v1,Twilio Start Event Connector,14.681612968444824
+43,Data Synchronization Timeout,bpmn:IntermediateThrowEvent,1,io.camunda.connectors.http.Polling,HTTP Polling Intermediate Catch Event Connector,10.882648468017578
+43,Data Synchronization Timeout,bpmn:IntermediateThrowEvent,2,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,10.520687103271484
+43,Data Synchronization Timeout,bpmn:IntermediateThrowEvent,3,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,10.225805282592773
+43,Data Synchronization Timeout,bpmn:IntermediateThrowEvent,4,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,10.119842529296875
+43,Data Synchronization Timeout,bpmn:IntermediateThrowEvent,5,io.camunda.connectors.inbound.AWSSNS.IntermediateCatchEvent.v1,SNS HTTPS Intermediate Catch Event Connector,9.999933242797852
+44,Boundary Timer for SLA breach,bpmn:BoundaryEvent,1,io.camunda.connectors.AWSSQS.boundary.v1,Amazon SQS Boundary Event Connector,19.383411407470703
+44,Boundary Timer for SLA breach,bpmn:BoundaryEvent,2,io.camunda.connectors.http.Polling.Boundary,HTTP Polling Boundary Catch Event Connector,19.07410430908203
+44,Boundary Timer for SLA breach,bpmn:BoundaryEvent,3,io.camunda.connectors.inbound.KafkaBoundary.v1,Kafka Boundary Event Connector,18.701032638549805
+44,Boundary Timer for SLA breach,bpmn:BoundaryEvent,4,io.camunda.connectors.webhook.WebhookConnectorBoundary.v1,Webhook Boundary Event Connector,17.009437561035156
+44,Boundary Timer for SLA breach,bpmn:BoundaryEvent,5,io.camunda.connectors.inbound.Slack.BoundaryEvent.v1,Slack Webhook Boundary Event Connector,16.867034912109375
+45,Review & Approve Contract Documents,bpmn:Task,1,io.camunda.connectors.AutomationAnywhere,Automation Anywhere Outbound Connector,15.035787582397461
+45,Review & Approve Contract Documents,bpmn:Task,2,io.camunda.connectors.GitLab.v1,GitLab Outbound Connector,14.856081008911133
+45,Review & Approve Contract Documents,bpmn:Task,3,io.camunda.connectors.EasyPost.v1,Easy Post Outbound Connector,14.294742584228516
+45,Review & Approve Contract Documents,bpmn:Task,4,io.camunda.connectors.BluePrism.v1,Blue Prism Outbound Connector,13.803926467895508
+45,Review & Approve Contract Documents,bpmn:Task,5,io.camunda.connectors.GitHub.v1,GitHub Outbound Connector,13.10200309753418
+46,Wait for 2 hours,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,15.348529815673828
+46,Wait for 2 hours,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.http.Polling,HTTP Polling Intermediate Catch Event Connector,13.760784149169922
+46,Wait for 2 hours,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.Twilio.Webhook.Intermediate.v1,Twilio Intermediate Catch Event Connector,13.548257827758789
+46,Wait for 2 hours,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.webhook.WebhookConnectorIntermediate.v1,Webhook Intermediate Event Connector,13.254444122314453
+46,Wait for 2 hours,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,13.02487564086914
+47,Callback to External System with JSON Payload,bpmn:Task,1,io.camunda.connectors.Salesforce.v1,Salesforce Outbound Connector,22.08420753479004
+47,Callback to External System with JSON Payload,bpmn:Task,2,io.camunda.connectors.HttpJson.v2,REST Outbound Connector,21.68644142150879
+47,Callback to External System with JSON Payload,bpmn:Task,3,io.camunda.connectors.CamundaOperate.v1,Camunda Operate Outbound connector,18.867063522338867
+47,Callback to External System with JSON Payload,bpmn:Task,4,io.camunda.connectors.AWSLAMBDA.v2,AWS Lambda Outbound Connector,17.799251556396484
+47,Callback to External System with JSON Payload,bpmn:Task,5,io.camunda.connectors.RabbitMQ.v1,RabbitMQ Outbound Connector,17.118938446044922
+48,N/A,bpmn:Task,1,io.camunda.connectors.Asana.v1,Asana Outbound Connector,9.555535316467285
+48,N/A,bpmn:Task,2,io.camunda.connectors.GoogleSheets.v1,Google Sheets Outbound Connector,9.302877426147461
+48,N/A,bpmn:Task,3,io.camunda.connectors.BluePrism.v1,Blue Prism Outbound Connector,9.0193452835083
+48,N/A,bpmn:Task,4,io.camunda.connectors.AutomationAnywhere,Automation Anywhere Outbound Connector,8.987241744995117
+48,N/A,bpmn:Task,5,io.camunda.connectors.AWSSNS.v1,Amazon SNS Outbound connector,8.895559310913086
+49,   ,bpmn:StartEvent,1,io.camunda.connectors.webhook.GithubWebhookConnectorMessageStart.v1,GitHub Webhook Message Start Event Connector,12.061352729797363
+49,   ,bpmn:StartEvent,2,io.camunda.connectors.webhook.GithubWebhookConnector.v1,GitHub Webhook Start Event Connector,11.254672050476074
+49,   ,bpmn:StartEvent,3,io.camunda.connectors.inbound.RabbitMQ.MessageStart.v1,RabbitMQ Message Start Event Connector,11.251152038574219
+49,   ,bpmn:StartEvent,4,io.camunda.connectors.inbound.AWSSNS.MessageStartEvent.v1,SNS HTTPS Message Start Event Connector Subscription,10.841004371643066
+49,   ,bpmn:StartEvent,5,io.camunda.connectors.inbound.RabbitMQ.StartEvent.v1,RabbitMQ Start Event Connector,10.750163078308105
+50,boundary_event_12345!?$,bpmn:BoundaryEvent,1,io.camunda.connectors.inbound.RabbitMQ.Boundary.v1,RabbitMQ Boundary Event Connector,19.96416473388672
+50,boundary_event_12345!?$,bpmn:BoundaryEvent,2,io.camunda.connectors.AWSSQS.boundary.v1,Amazon SQS Boundary Event Connector,19.85386085510254
+50,boundary_event_12345!?$,bpmn:BoundaryEvent,3,io.camunda.connectors.webhook.WebhookConnectorBoundary.v1,Webhook Boundary Event Connector,18.129718780517578
+50,boundary_event_12345!?$,bpmn:BoundaryEvent,4,io.camunda.connectors.inbound.KafkaBoundary.v1,Kafka Boundary Event Connector,17.974365234375
+50,boundary_event_12345!?$,bpmn:BoundaryEvent,5,io.camunda.connectors.AWSEventBridge.boundary.v1,Amazon EventBridge Boundary Event Connector,17.665103912353516
+51,Fire-and-Forget Notification,bpmn:IntermediateThrowEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,17.106416702270508
+51,Fire-and-Forget Notification,bpmn:IntermediateThrowEvent,2,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,14.440629005432129
+51,Fire-and-Forget Notification,bpmn:IntermediateThrowEvent,3,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,13.964204788208008
+51,Fire-and-Forget Notification,bpmn:IntermediateThrowEvent,4,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,13.716938018798828
+51,Fire-and-Forget Notification,bpmn:IntermediateThrowEvent,5,io.camunda.connectors.Twilio.Webhook.Intermediate.v1,Twilio Intermediate Catch Event Connector,13.320404052734375
+52,Escalate to Human Operator if No Response in 24h,bpmn:IntermediateThrowEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,14.148950576782227
+52,Escalate to Human Operator if No Response in 24h,bpmn:IntermediateThrowEvent,2,io.camunda.connectors.http.Polling,HTTP Polling Intermediate Catch Event Connector,13.103729248046875
+52,Escalate to Human Operator if No Response in 24h,bpmn:IntermediateThrowEvent,3,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,11.941631317138672
+52,Escalate to Human Operator if No Response in 24h,bpmn:IntermediateThrowEvent,4,io.camunda.connectors.webhook.WebhookConnectorIntermediate.v1,Webhook Intermediate Event Connector,11.924583435058594
+52,Escalate to Human Operator if No Response in 24h,bpmn:IntermediateThrowEvent,5,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,11.674018859863281
+53,Check XYZ System’s Health and Retry Connection,bpmn:Task,1,io.camunda.connectors.CamundaOperate.v1,Camunda Operate Outbound connector,16.7960205078125
+53,Check XYZ System’s Health and Retry Connection,bpmn:Task,2,io.camunda.connectors.BluePrism.v1,Blue Prism Outbound Connector,16.341922760009766
+53,Check XYZ System’s Health and Retry Connection,bpmn:Task,3,io.camunda.connectors.GoogleSheets.v1,Google Sheets Outbound Connector,15.338672637939453
+53,Check XYZ System’s Health and Retry Connection,bpmn:Task,4,io.camunda.connectors.KAFKA.v1,Kafka Outbound Connector,15.187437057495117
+53,Check XYZ System’s Health and Retry Connection,bpmn:Task,5,io.camunda.connectors.AWSSQS.v1,Amazon SQS Outbound Connector,15.117412567138672
+54,非常に長い名前のタスク - 国際化テスト (Internationalization Test),bpmn:Task,1,io.camunda.connectors.GoogleMapsPlatform.v1,Google Maps Platform Outbound Connector,11.07010269165039
+54,非常に長い名前のタスク - 国際化テスト (Internationalization Test),bpmn:Task,2,io.camunda.connectors.HuggingFace.v1,Hugging Face Outbound Connector,9.030080795288086
+54,非常に長い名前のタスク - 国際化テスト (Internationalization Test),bpmn:Task,3,io.camunda.connectors.OpenAI.v1,OpenAI Outbound Connector,8.41188907623291
+54,非常に長い名前のタスク - 国際化テスト (Internationalization Test),bpmn:Task,4,io.camunda.connectors.GraphQL.v1,GraphQL Outbound Connector,8.025428771972656
+54,非常に長い名前のタスク - 国際化テスト (Internationalization Test),bpmn:Task,5,io.camunda.connectors.GoogleSheets.v1,Google Sheets Outbound Connector,8.00888442993164
+55,Multiple Approvals from Different Departments Required,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,8.476715087890625
+55,Multiple Approvals from Different Departments Required,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,8.346735000610352
+55,Multiple Approvals from Different Departments Required,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.webhook.WebhookConnectorIntermediate.v1,Webhook Intermediate Event Connector,7.830137729644775
+55,Multiple Approvals from Different Departments Required,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.webhook.GithubWebhookConnectorIntermediate.v1,GitHub Webhook Intermediate Catch Event Connector,7.512190818786621
+55,Multiple Approvals from Different Departments Required,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.inbound.AWSSNS.IntermediateCatchEvent.v1,SNS HTTPS Intermediate Catch Event Connector,7.328312873840332
+56,--------------------,bpmn:Task,1,io.camunda.connectors.BluePrism.v1,Blue Prism Outbound Connector,13.140372276306152
+56,--------------------,bpmn:Task,2,io.camunda.connectors.AutomationAnywhere,Automation Anywhere Outbound Connector,12.256239891052246
+56,--------------------,bpmn:Task,3,io.camunda.connectors.HuggingFace.v1,Hugging Face Outbound Connector,11.271066665649414
+56,--------------------,bpmn:Task,4,io.camunda.connectors.UIPath.v1,UiPath Outbound Connector,11.117599487304688
+56,--------------------,bpmn:Task,5,io.camunda.connectors.Asana.v1,Asana Outbound Connector,10.926939010620117
+57,Generate Monthly Financial Reports & Send PDF to CFO,bpmn:Task,1,io.camunda.connectors.GoogleSheets.v1,Google Sheets Outbound Connector,13.657390594482422
+57,Generate Monthly Financial Reports & Send PDF to CFO,bpmn:Task,2,io.camunda.connectors.EasyPost.v1,Easy Post Outbound Connector,13.17325210571289
+57,Generate Monthly Financial Reports & Send PDF to CFO,bpmn:Task,3,io.camunda.connectors.GitLab.v1,GitLab Outbound Connector,13.020636558532715
+57,Generate Monthly Financial Reports & Send PDF to CFO,bpmn:Task,4,io.camunda.connectors.GoogleDrive.v1,Google Drive Outbound Connector,12.76772689819336
+57,Generate Monthly Financial Reports & Send PDF to CFO,bpmn:Task,5,io.camunda.connectors.Jdbc.v1,SQL Database Connector,12.11557388305664
+58,Initialize Process Flow For Quarterly Audit,bpmn:StartEvent,1,io.camunda.connectors.AWSSQS.StartEvent.v1,Amazon SQS Start Event Connector,15.087050437927246
+58,Initialize Process Flow For Quarterly Audit,bpmn:StartEvent,2,io.camunda.connectors.webhook.WebhookConnector.v1,Webhook Start Event Connector,14.704318046569824
+58,Initialize Process Flow For Quarterly Audit,bpmn:StartEvent,3,io.camunda.connectors.AWSSQS.startmessage.v1,Amazon SQS Message Start Event Connector,14.420068740844727
+58,Initialize Process Flow For Quarterly Audit,bpmn:StartEvent,4,io.camunda.connectors.webhook.WebhookConnectorStartMessage.v1,Webhook Message Start Event Connector,13.980719566345215
+58,Initialize Process Flow For Quarterly Audit,bpmn:StartEvent,5,io.camunda.connectors.inbound.KafkaMessageStart.v1,Kafka Message Start Event Connector,13.621106147766113
+59,Boundary Error Catching For Database Exception,bpmn:BoundaryEvent,1,io.camunda.connectors.http.Polling.Boundary,HTTP Polling Boundary Catch Event Connector,18.837722778320312
+59,Boundary Error Catching For Database Exception,bpmn:BoundaryEvent,2,io.camunda.connectors.AWSSQS.boundary.v1,Amazon SQS Boundary Event Connector,18.556739807128906
+59,Boundary Error Catching For Database Exception,bpmn:BoundaryEvent,3,io.camunda.connectors.webhook.WebhookConnectorBoundary.v1,Webhook Boundary Event Connector,18.031158447265625
+59,Boundary Error Catching For Database Exception,bpmn:BoundaryEvent,4,io.camunda.connectors.inbound.RabbitMQ.Boundary.v1,RabbitMQ Boundary Event Connector,17.828351974487305
+59,Boundary Error Catching For Database Exception,bpmn:BoundaryEvent,5,io.camunda.connectors.Twilio.Webhook.Boundary.v1,Twilio Boundary Event Connector,16.90763282775879
+60,Sensor Trigger - Catch Motion Input,bpmn:IntermediateCatchEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,17.554670333862305
+60,Sensor Trigger - Catch Motion Input,bpmn:IntermediateCatchEvent,2,io.camunda.connectors.webhook.WebhookConnectorIntermediate.v1,Webhook Intermediate Event Connector,16.38750457763672
+60,Sensor Trigger - Catch Motion Input,bpmn:IntermediateCatchEvent,3,io.camunda.connectors.http.Polling,HTTP Polling Intermediate Catch Event Connector,16.373001098632812
+60,Sensor Trigger - Catch Motion Input,bpmn:IntermediateCatchEvent,4,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,16.24844741821289
+60,Sensor Trigger - Catch Motion Input,bpmn:IntermediateCatchEvent,5,io.camunda.connectors.AWSEventBridge.intermediate.v1,Amazon EventBridge Intermediate Catch Event Connector,15.798173904418945
+61,Signal Throw to Downstream Systems,bpmn:IntermediateThrowEvent,1,io.camunda.connectors.AWSSQS.intermediate.v1,Amazon SQS Intermediate Message Catch Event connector,18.180648803710938
+61,Signal Throw to Downstream Systems,bpmn:IntermediateThrowEvent,2,io.camunda.connectors.AWSEventBridge.intermediate.v1,Amazon EventBridge Intermediate Catch Event Connector,17.62964630126953
+61,Signal Throw to Downstream Systems,bpmn:IntermediateThrowEvent,3,io.camunda.connectors.inbound.RabbitMQ.Intermediate.v1,RabbitMQ Intermediate Catch Event Connector,17.280174255371094
+61,Signal Throw to Downstream Systems,bpmn:IntermediateThrowEvent,4,io.camunda.connectors.inbound.Slack.IntermediateCatchEvent.v1,Slack Webhook Intermediate Catch Event Connector,16.498004913330078
+61,Signal Throw to Downstream Systems,bpmn:IntermediateThrowEvent,5,io.camunda.connectors.inbound.KafkaIntermediate.v1,Kafka Intermediate Catch Event Connector,16.19530487060547
