@@ -1,0 +1,140 @@
+Template 0: Asana Outbound Connector Manage your Asana project with Camunda
+
+Template 1: Automation Anywhere Outbound Connector Orchestrate your Automation Anywhere bots with Camunda. You can create new queue items and get the result from it
+
+Template 2: AWS DynamoDB Outbound Connector Work with tables and items using AWS DynamoDB service
+
+Template 3: Amazon EventBridge Boundary Event Connector Receive events from AWS EventBridge
+
+Template 4: Amazon EventBridge Intermediate Catch Event Connector Receive events from AWS EventBridge
+
+Template 5: Amazon EventBridge Message Start Event Connector Receive events from AWS EventBridge
+
+Template 6: Amazon EventBridge Start Event Connector Receive events from AWS EventBridge
+
+Template 7: Amazon EventBridge Outbound Connector Send events to AWS EventBridge
+
+Template 8: AWS Lambda Outbound Connector Invoke a function
+
+Template 9: AWS SageMaker Outbound Connector Execute SageMaker models
+
+Template 10: Amazon SNS Outbound connector Send message to topic
+
+Template 11: SNS HTTPS Boundary Event Connector Receive events from AWS SNS
+
+Template 12: SNS HTTPS Intermediate Catch Event Connector Receive events from AWS SNS
+
+Template 13: SNS HTTPS Message Start Event Connector Subscription Receive events from AWS SNS
+
+Template 14: SNS HTTPS Start Event Connector Receive events from AWS SNS
+
+Template 15: Amazon SQS Boundary Event Connector Receive message from a queue
+
+Template 16: Amazon SQS Outbound Connector Send message to queue
+
+Template 17: Amazon SQS Intermediate Message Catch Event connector Receive message from a queue
+
+Template 18: Amazon SQS Start Event Connector Receive message from a queue
+
+Template 19: Amazon SQS Message Start Event Connector Receive message from a queue
+
+Template 20: Azure OpenAI Connector Interact with Azure OpenAI from your BPMN process
+
+Template 21: Blue Prism Outbound Connector Orchestrate your Blue Prism queue with Camunda. You can create new queue items and get the result from it
+
+Template 22: Easy Post Outbound Connector Allows you to create addresses, parcels, and shipments, as well as purchase and verify shipments
+
+Template 23: GitHub Outbound Connector Manage issues, branches, releases, and more
+
+Template 24: GitHub Webhook Boundary Event Connector Receive events from GitHub
+
+Template 25: GitHub Webhook Intermediate Catch Event Connector Receive events from GitHub
+
+Template 26: GitHub Webhook Message Start Event Connector Receive events from GitHub
+
+Template 27: GitHub Webhook Start Event Connector Receive events from GitHub
+
+Template 28: GitLab Outbound Connector Administer and work with issues, releases, and more
+
+Template 29: Google Drive Outbound Connector Create folder or a file from template
+
+Template 30: Google Maps Platform Outbound Connector The Google Maps connector validates addresses, retrieves postal addresses and calculates distances
+
+Template 31: Google Sheets Outbound Connector Work with spreadsheets
+
+Template 32: GraphQL Outbound Connector Execute GraphQL query
+
+Template 33: REST Outbound Connector Invoke REST API
+
+Template 34: HTTP Polling Boundary Catch Event Connector Polls endpoint at regular intervals
+
+Template 35: HTTP Polling Intermediate Catch Event Connector Polls endpoint at regular intervals
+
+Template 36: Hugging Face Outbound Connector Interact with Hugging Face inference API
+
+Template 37: SQL Database Connector Read and write data from a Camunda process directly to a SQL database(Microsoft SQL Server, MySQL, PostgreSQL)
+
+Template 38: Kafka Message Start Event Connector Consume Kafka messages
+
+Template 39: Kafka Outbound Connector Produce Kafka message
+
+Template 40: Kafka Boundary Event Connector Consume Kafka messages
+
+Template 41: Kafka Intermediate Catch Event Connector Consume Kafka messages
+
+Template 42: Kafka Start Event Connector Consume Kafka messages
+
+Template 43: Microsoft Office 365 Mail Connector Work with Office 365 Mail via your BPMN process
+
+Template 44: Microsoft Teams Outbound Connector Create, update, and send a message to your Microsoft Teams
+
+Template 45: OpenAI Outbound Connector Interact with ChatGPT or moderation API
+
+Template 46: Camunda Operate Outbound connector Fetch data from Camunda Operate API
+
+Template 47: RabbitMQ Outbound Connector Send message to RabbitMQ
+
+Template 48: RabbitMQ Boundary Event Connector Receive a message from RabbitMQ
+
+Template 49: RabbitMQ Intermediate Catch Event Connector Receive a message from RabbitMQ
+
+Template 50: RabbitMQ Message Start Event Connector Receive a message from RabbitMQ
+
+Template 51: RabbitMQ Start Event Connector Receive a message from RabbitMQ
+
+Template 52: Salesforce Outbound Connector Call the Salesforce APIs from your process
+
+Template 53: SendGrid Outbound Connector Send an email via SendGrid
+
+Template 54: Slack Outbound Connector Create a channel or send a message to a channel or user
+
+Template 55: Slack Webhook Boundary Event Connector Receive events from Slack
+
+Template 56: Slack Webhook Intermediate Catch Event Connector Receive events from Slack
+
+Template 57: Slack Webhook Message Start Event Connector Receive events from Slack
+
+Template 58: Slack Webhook Start Event Connector Receive events from Slack
+
+Template 59: Twilio Outbound Connector Send SMS messages or retrieve message information using the Twilio API
+
+Template 60: Twilio Boundary Event Connector Receive incoming message with Twilio service
+
+Template 61: Twilio Start Event Connector Receive incoming message with Twilio service
+
+Template 62: Twilio Intermediate Catch Event Connector Receive incoming message with Twilio service
+
+Template 63: Twilio Message Start Event Connector Receive incoming message with Twilio service
+
+Template 64: UiPath Outbound Connector Orchestrate your UiPath bots with Camunda. You can create new queue items and get the result from it
+
+Template 65: Webhook Boundary Event Connector Configure webhook to receive callbacks
+
+Template 66: Webhook Intermediate Event Connector Configure webhook to receive callbacks
+
+Template 67: Webhook Start Event Connector Configure webhook to receive callbacks
+
+Template 68: Webhook Message Start Event Connector Configure webhook to receive callbacks
+
+Template 69: WhatsApp Business Outbound Connector Send messages via WhatsApp
+

@@ -1,0 +1,65 @@
+Test Case ID,Input Name,Input Type,Suggestion Rank,Suggestion Name,Prompt Tokens,Completion Tokens,Total Tokens
+1,Send email,bpmn:Task,1.0,SendGrid Outbound Connector,1236,18,1254
+2,Send message,bpmn:Task,1.0,Slack Outbound Connector,1236,19,1255
+3,Setup project,bpmn:Task,1.0,Asana Outbound Connector,1236,18,1254
+4,Call REST API,bpmn:Task,1.0,REST Outbound Connector,1237,19,1256
+5,Get distance from Google Maps,bpmn:Task,1.0,Google Maps Platform Outbound Connector,1239,20,1259
+6,Send message on Slack,bpmn:Task,1.0,Slack Outbound Connector,1238,19,1257
+7,Receive order,bpmn:StartEvent,,error,0,0,0
+8,Wait for approval,bpmn:IntermediateCatchEvent,,error,0,0,0
+9,GitHub issue,bpmn:BoundaryEvent,1.0,GitHub Webhook Boundary Event Connector,498,24,522
+10,Create Slack channel,bpmn:Task,1.0,Slack Outbound Connector,1237,19,1256
+11,Email sender,bpmn:Task,1.0,SendGrid Outbound Connector,1236,18,1254
+12,Order received,bpmn:StartEvent,,error,0,0,0
+13,Approval wait,bpmn:IntermediateCatchEvent,,error,0,0,0
+14,Notification sender,bpmn:IntermediateThrowEvent,,error,0,0,0
+15,Send email to customer,bpmn:Task,1.0,SendGrid Outbound Connector,1238,18,1256
+16,Make API request,bpmn:Task,1.0,REST Outbound Connector,1237,19,1256
+17,Email,bpmn:IntermediateCatchEvent,,error,0,0,0
+18,Receive Email,bpmn:IntermediateCatchEvent,,error,0,0,0
+19,Approval,bpmn:Task,,No suggestions,1235,16,1251
+20,Approval,bpmn:IntermediateCatchEvent,,error,0,0,0
+21,Send Email Notification,bpmn:Task,1.0,SendGrid Outbound Connector,1237,18,1255
+22,Fire John,bpmn:Task,1.0,Slack Outbound Connector,1236,19,1255
+23,SEND EMAIL,bpmn:Task,1.0,SendGrid Outbound Connector,1236,18,1254
+24,Call external API to get data,bpmn:Task,1.0,REST Outbound Connector,1240,19,1259
+25,Call Google Maps API,bpmn:Task,1.0,Google Maps Platform Outbound Connector,1238,20,1258
+26,Call some API,bpmn:Task,1.0,REST Outbound Connector,1237,80,1317
+27,Process payment,bpmn:Task,1.0,Salesforce Outbound Connector,1236,19,1255
+28,User registration,bpmn:StartEvent,,error,0,0,0
+29,Timer-based reminder,bpmn:IntermediateCatchEvent,,error,0,0,0
+30,Log system event,bpmn:IntermediateThrowEvent,,error,0,0,0
+31,Compensate transaction,bpmn:BoundaryEvent,,No suggestions,500,12,512
+32,Send email with attachment,bpmn:Task,1.0,SendGrid Outbound Connector,1238,18,1256
+33,Wait for customer approval,bpmn:IntermediateCatchEvent,,error,0,0,0
+34,Error handling mechanism,bpmn:BoundaryEvent,,No suggestions,499,12,511
+35,Compensate failed transaction,bpmn:BoundaryEvent,1.0,Webhook Boundary Event Connector,501,23,524
+36,Log important event,bpmn:IntermediateThrowEvent,,error,0,0,0
+37,Start process on system boot,bpmn:StartEvent,,error,0,0,0
+38,User logs in successfully,bpmn:StartEvent,,error,0,0,0
+39,Timer event after 24 hours,bpmn:IntermediateCatchEvent,,error,0,0,0
+40,Escalate to manager,bpmn:IntermediateThrowEvent,,error,0,0,0
+41,"Validate user input, store results in DB, then trigger notification email",bpmn:Task,1.0,REST Outbound Connector,1247,141,1388
+41,"Validate user input, store results in DB, then trigger notification email",bpmn:Task,2.0,SQL Database Connector,1247,141,1388
+41,"Validate user input, store results in DB, then trigger notification email",bpmn:Task,3.0,SendGrid Outbound Connector,1247,141,1388
+42,Initiate Payment Process,bpmn:StartEvent,,error,0,0,0
+43,Data Synchronization Timeout,bpmn:IntermediateThrowEvent,,error,0,0,0
+44,Boundary Timer for SLA breach,bpmn:BoundaryEvent,,No suggestions,502,12,514
+45,Review & Approve Contract Documents,bpmn:Task,1.0,Google Drive Outbound Connector,1240,19,1259
+46,Wait for 2 hours,bpmn:IntermediateCatchEvent,,error,0,0,0
+47,Callback to External System with JSON Payload,bpmn:Task,1.0,REST Outbound Connector,1241,19,1260
+48,N/A,bpmn:Task,,No suggestions,1236,37,1273
+49,   ,bpmn:StartEvent,,No suggestions,0,0,0
+50,boundary_event_12345!?$,bpmn:BoundaryEvent,,No suggestions,503,12,515
+51,Fire-and-Forget Notification,bpmn:IntermediateThrowEvent,,error,0,0,0
+52,Escalate to Human Operator if No Response in 24h,bpmn:IntermediateThrowEvent,,error,0,0,0
+53,Check XYZ System’s Health and Retry Connection,bpmn:Task,1.0,REST Outbound Connector,1242,82,1324
+54,非常に長い名前のタスク - 国際化テスト (Internationalization Test),bpmn:Task,,No suggestions,1258,14,1272
+55,Multiple Approvals from Different Departments Required,bpmn:IntermediateCatchEvent,,error,0,0,0
+56,--------------------,bpmn:Task,,No suggestions,1235,35,1270
+57,Generate Monthly Financial Reports & Send PDF to CFO,bpmn:Task,1.0,Google Sheets Outbound Connector,1243,108,1351
+57,Generate Monthly Financial Reports & Send PDF to CFO,bpmn:Task,2.0,SendGrid Outbound Connector,1243,108,1351
+58,Initialize Process Flow For Quarterly Audit,bpmn:StartEvent,,error,0,0,0
+59,Boundary Error Catching For Database Exception,bpmn:BoundaryEvent,,No suggestions,503,12,515
+60,Sensor Trigger - Catch Motion Input,bpmn:IntermediateCatchEvent,,error,0,0,0
+61,Signal Throw to Downstream Systems,bpmn:IntermediateThrowEvent,,error,0,0,0
