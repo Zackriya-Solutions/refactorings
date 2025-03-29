@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    # volumes:
+    #   - ./logs/app.log:/app/app.log # [Errno 21] Is a directory: '/app/app.log' 
+    ports:
+      - "8000:8000"
