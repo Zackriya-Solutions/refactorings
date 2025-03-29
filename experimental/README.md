@@ -58,12 +58,6 @@ Follow these steps to set up and run the application:
     - Replace `app_using_cosine_similarity` with the appropriate module name (e.g., `app_using_dot_product`) to run an alternate solution.
 3. **Access the API:**
     - The API will be available at `http://localhost:8000`.
-    - Test the `/suggest` endpoint by sending a POST request with JSON data containing `name` (e.g., "Send email") and `type` (e.g., "bpmn:Task"). Example using curl:
-        
-        ```
-        curl -X POST "<http://localhost:8000/suggest>" -H "Content-Type: application/json" -d '{"name": "Send email", "type": "bpmn:Task"}'
-        
-        ```
         
 
 The application assumes the presence of an `all_elements.json` file in the same directory, containing the template data.
