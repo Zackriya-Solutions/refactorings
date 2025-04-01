@@ -39,13 +39,6 @@ import OpenAI from 'openai';
 
 import diagramXml from 'test/fixtures/bpmn/simple.bpmn';
 
-const openAIApiKey = process.env.OPENAI_API_KEY;
-
-const openai = new OpenAI({
-  apiKey: openAIApiKey,
-  dangerouslyAllowBrowser: true
-});
-
 const singleStart = window.__env__ && window.__env__.SINGLE_START === 'true';
 
 await insertCoreStyles();

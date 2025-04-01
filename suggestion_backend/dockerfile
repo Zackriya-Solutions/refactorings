@@ -1,0 +1,20 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy and install other dependencies (excluding Torch from requirements.txt)
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install CPU-only version of Torch 2.6.0
+RUN pip install torch==2.6.0 -f https://download.pytorch.org/whl/cpu
+
+# Pre-loading model inside image
+RUN python -c "from sentence_transformers import SentenceTransformer; model = SentenceTransformer('multi-qa-mpnet-base-dot-v1')"
+
+# Copy application files
+COPY app.py .
+COPY all_elements.json .
+
+# Run the application
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]

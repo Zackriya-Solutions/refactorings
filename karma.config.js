@@ -12,8 +12,6 @@ const browsers = (process.env.TEST_BROWSERS || 'ChromeHeadless').split(',');
 
 const singleStart = process.env.SINGLE_START;
 
-const testOpenai = process.env.TEST_OPENAI;
-
 const absoluteBasePath = path.resolve(path.join(__dirname, basePath));
 
 // use puppeteer provided Chrome for testing
@@ -90,10 +88,6 @@ module.exports = function(karma) {
   if (singleStart) {
     config.browsers = [].concat(config.browsers, 'Debug');
     config.envPreprocessor = [].concat(config.envPreprocessor || [], 'SINGLE_START');
-  }
-
-  if (testOpenai) {
-    config.envPreprocessor = [].concat(config.envPreprocessor || [], 'TEST_OPENAI');
   }
 
   karma.set(config);
